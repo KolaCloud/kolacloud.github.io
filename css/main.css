@@ -1,7 +1,3 @@
-/** {
-    box-sizing: border-box;
-}*/
-
 html {
     background: #fff;
     color: #333;
@@ -32,7 +28,7 @@ h2 {
 }
 
 p {
-    font-weight:bold;
+    font-weight: bold;
     margin: 1em 0;
 }
 
@@ -210,16 +206,4 @@ p {
         display: inline-block;
         margin: 0 1em 0.5em;
     }
-
-    /* From:style.css */
-
-    .card {
-        background: #fff;
-        background-size: contain;
-        border-radius: 10px;
-        box-shadow: 0 10px 30px -5px rgba(60, 60, 60, 0.2);
-        text-align: center;
-        padding: 30px 60px;
-    }
-
 }
