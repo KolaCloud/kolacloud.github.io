@@ -207,3 +207,21 @@ p {
         margin: 0 1em 0.5em;
     }
 }
+
+hr {
+    border: none;
+    border-top: 3px double rgba(236, 5, 5, 0.34);
+    color: rgba(236, 5, 5, 0.34);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.telegramim_button {
+    font-size: 17px;
+    width: 195px;
+    background: #27A5E7;
+    box-shadow: 1px 1px 5px #27A5E7;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
