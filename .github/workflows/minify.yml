@@ -1,3 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Auto Minify CSS/JS file
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the dev branch
+on:
+  push:
+    paths:
+      - 'css/**'
+      - 'node_modules/normalize.css/**'
+
 steps:
   # Checks-out your repository under $GITHUB_WORKSPACE, so auto-minify job can access it
   - uses: actions/checkout@v2
